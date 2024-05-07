@@ -44,8 +44,8 @@ const Exam1: React.FC = () => {
   };
 
   return (
-    <div>
-      <h1>Validated Input</h1>
+    <div className="flex flex-col justify-center items-center mb-10">
+      <h1 className="text-3xl mb-10">Validated Input</h1>
       <ValidatedInput
         value={inputValue}
         onChange={setInputValue}
